@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -72,6 +73,6 @@ def create_prob_fig_per_number(remaining_range, all_probs):
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
         xaxis=dict(gridcolor="lightgrey", title=dict(text="card number")),
-        yaxis=dict(gridcolor="lightgrey", title=dict(text="probability that card is the lowest"))
+        yaxis=dict(gridcolor="lightgrey", title=dict(text="probability<br>that card number is the lowest"))
     )
     st.plotly_chart(fig, use_container_width=True)
