@@ -60,6 +60,8 @@ def main():
     
     ---
     
+    #### Formula
+    
     Calculate the probability that you're holding the card with the lowest number.
     
     """
