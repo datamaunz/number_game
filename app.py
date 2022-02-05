@@ -56,7 +56,7 @@ def main():
     
     > Only show confidence if the likelihood of having the lowest card is larger or equal to `0.5`.
     
-    > Further refine the assessment of likelihoods depending on whether one person, no person or many persons express confidence (according to a standard procedure)
+    > Further refine the assessment of likelihoods depending on whether one person, no person or many persons express confidence (according to a standard procedure).
     
     ---
     
