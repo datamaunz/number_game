@@ -32,6 +32,26 @@ def main():
     df_third = create_table_for_step(df_new, lowest_prob_thresh, highest_prob_thresh)
 
     st.markdown("## Emotional Robots")
+    st.markdown("#### Two emotions are enough to navigate *the Mind* with ease.")
+    
+    """
+    [*The Mind*](https://de.wikipedia.org/wiki/The_Mind) is cooperative game created by [*Wolfgang Marsch*](https://de.wikipedia.org/wiki/The_Mind). 
+    It was among the three final nominates for the *game of the year* award in 2018.
+    
+    The game consists of 100 cards numbered from 1 to 100, can be played by 2 to 4 players, and knows twelve levels. On level 1, players receive 1 card, on lelvel 2, 2 cards, on level 3, 3 cards, and so forth. 
+    Only they themselves know what numbers they hold. 
+    
+    The aim of the game is to place the cards on the table in ascending order without talking about numbers or implying them in any way. 
+    If a card is laid while one of the players has a lower number in hand, the round is lost. 
+    It's thus a collaborative game but players are not allowed to talk numbers. 
+    If the players manage to put the numbers on the table in the correct order, they all win and advance to the new level.
+    
+    According to the legend, in order to be successful, you need special empathy for the condition of others. 
+    But that's a myth. 
+    Probability and two simple emotions coupled with a clear process of expressing and interpreting confidence are enough to achieve success.
+    """
+    
+    
 
     x = df_first.index[-2]
 
