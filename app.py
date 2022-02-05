@@ -32,11 +32,11 @@ def main():
     df_third = create_table_for_step(df_new, lowest_prob_thresh, highest_prob_thresh)
 
     st.markdown("## Emotional Robots")
-    st.markdown("#### Two emotions are enough to navigate *the Mind* with ease.")
+    st.markdown("#### Two emotions are enough to navigate *the Mind* with ease: 🥱 and 😃")
     
     """
     [*The Mind*](https://de.wikipedia.org/wiki/The_Mind) is cooperative game created by [*Wolfgang Marsch*](https://de.wikipedia.org/wiki/The_Mind). 
-    It was among the three final nominates for the *game of the year* award in 2018.
+    It was among the three final nominees for the *game of the year* award in 2018.
     
     The game consists of 100 cards numbered from 1 to 100, can be played by 2 to 4 players, and knows twelve levels. On level 1, players receive 1 card, on lelvel 2, 2 cards, on level 3, 3 cards, and so forth. 
     Only they themselves know what numbers they hold. 
@@ -49,6 +49,14 @@ def main():
     According to the legend, in order to be successful, you need special empathy for the condition of others. 
     But that's a myth. 
     Probability and two simple emotions coupled with a clear process of expressing and interpreting confidence are enough to achieve success.
+    
+    #### Maxims
+    
+    > Only show confidence if the likelihood of having the lowest card is larger or equal to `0.5`.
+    
+    > Further refine the assessment of likelihoods depending on whether one person, no person or many persons express confidence (according to a standard procedure)
+    
+    
     """
     
     
@@ -56,7 +64,7 @@ def main():
     x = df_first.index[-2]
 
     f"""
-    ### Steps
+    #### Standard Procedure
     
     1. Set the slider to the lowest number on the table. If no card is on the table yet, set it to 0. Set the card counter on the sidebar to the number of cards remaining in the game.
     2. You're the only person smiling (*table 1*)? **You have the lowest card**! Put it on the table and start again at step 1.
