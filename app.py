@@ -8,7 +8,7 @@ def main():
     page_icon = "🤖")
 
     last_lowest_num, highest_num = st.sidebar.slider("lowest card on table", 0,100,[0,100])
-    number_of_remaining_cards = st.sidebar.number_input("How many cards are still in the game?", 8)
+    number_of_remaining_cards = st.sidebar.number_input("How many cards are still in the game?", 1, 99, 8)
 
 
     remaining_range = np.arange(last_lowest_num + 1, highest_num + 1)
