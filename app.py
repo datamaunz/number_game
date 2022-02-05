@@ -38,7 +38,8 @@ def main():
     [*The Mind*](https://de.wikipedia.org/wiki/The_Mind) is cooperative game created by [*Wolfgang Marsch*](https://de.wikipedia.org/wiki/The_Mind). 
     It was among the three final nominees for the *game of the year* award in 2018.
     
-    The game consists of 100 cards numbered from 1 to 100, can be played by 2 to 4 players, and knows twelve levels. On level 1, players receive 1 card, on lelvel 2, 2 cards, on level 3, 3 cards, and so forth. 
+    The game consists of 100 cards numbered from 1 to 100, can be played by 2 to 4 players, and has twelve levels. 
+    In level 1, players receive 1 card, in lelvel 2, 2 cards, in level 3, 3 cards, and so forth. 
     Only they themselves know what numbers they hold. 
     
     The aim of the game is to place the cards on the table in ascending order without talking about numbers or implying them in any way. 
