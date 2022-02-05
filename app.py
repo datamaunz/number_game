@@ -39,7 +39,7 @@ def main():
     ### Steps
     
     1. Set the slider to the lowest number on the table. If no card is on the table yet, set it to 0. Set the card counter on the sidebar to the number of cards remaining in the game.
-    2. You're the only person smiling? **You have the lowest card**! Put it on the table and start again at step 1.
+    2. You're the only person smiling (*table 1*)? **You have the lowest card**! Put it on the table and start again at step 1.
     3. First round (*table 1*) and everyone is yawning? - Move the slider up to `{x}` and go back to step 2.
     4. More then 1 person is excited? The lowest card is among you (the excited folks). You are about to enter round 2 (*table 1*).
         
